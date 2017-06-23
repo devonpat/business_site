@@ -42,3 +42,82 @@ body {
 	margin-top: 30px;
 }
 
+#jobOffer {
+	margin-top: 25px;
+
+}
+
+#offerdropdownMenuLink{
+	margin-top: 35px;
+	margin-left: 55px;
+	background-color: purple
+	color: white;
+}
+
+#offerDropdown{
+	margin-left: 65px;
+}
+
+#jobAccept {
+	margin-top: 25px;
+
+}
+
+#acceptdropdownMenuLink{
+	margin-top: 35px;
+	margin-left: 55px;
+	background-color: purple
+	color: white;
+}
+
+#acceptDropdown{
+	margin-left: 65px;
+}
+
+#walkOfferHead{
+	margin-bottom: 30px;
+}
+
+#offerInput {
+	background-color: purple;
+	color: white;
+	width: 275px;
+	padding: 30px;
+	margin: 25px;
+	margin-left: 65px;
+	border: solid;
+	display: flex;
+}
+
+#offerInputAccptBtn {
+	float: right;
+	margin: 10px;
+}
+
+#offerPic {
+	height: auto;
+	width: 70vw;
+	float: right;
+}
+
+#pic8 {
+	height: 500px;
+	width: 60vw;
+	margin: 25px;
+	margin-top: 0px;
+	float: right;
+}
+
+#acceptPic {
+	height: auto;
+	width: 70vw;
+	float: right;
+}
+
+#pic9 {
+	height: 500px;
+	width: 60vw;
+	margin: 25px;
+	margin-top: 0px;
+	float: right;
+}

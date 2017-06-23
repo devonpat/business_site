@@ -1,0 +1,44 @@
+body {
+	background-color: lightgreen;
+}
+
+.navbar-brand {
+	border-style: solid;
+	padding: 5px;
+}
+
+#carouselExampleControls{
+	display: inline-block;
+	width: 700px;
+	height: 700px;
+}
+
+#offer {
+	height: 375px;
+	width: 40vw;
+	background-color: purple;
+	margin-left: 10vw;
+	margin-top: 5vw;
+	border-radius: 25px;
+	color: white;
+	font-size: 50px
+
+}
+
+#need {
+	height: 375px;
+	width: 40vw;
+	background-color: purple;
+	border-radius: 25px;
+	color: white;
+	font-size: 50px
+}
+
+.card {
+	height: 275px;
+	width: 250px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 30px;
+}
+

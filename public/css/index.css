@@ -121,3 +121,9 @@ body {
 	margin-top: 0px;
 	float: right;
 }
+
+#aboutUsDescription {
+	height: auto;
+	width: 90vw;
+	margin: 35px;
+}

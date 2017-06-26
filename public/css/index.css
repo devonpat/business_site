@@ -8,9 +8,15 @@ body {
 }
 
 #carouselExampleControls{
-	display: inline-block;
+	display: fixed;
+	margin: auto;
 	width: 700px;
 	height: 700px;
+}
+
+#carouselExampleControls img{
+	height: 100%;
+	width: 100%;
 }
 
 #offer {

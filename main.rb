@@ -29,20 +29,6 @@ get '/walking_offer' do
 	erb :walking_offer
 end
 
-post '/walking_offer' do
-	
-end
-
-post '/new_user' do
-	 @email = params[:email]
-	 @password = params[:password]
-	 if @email == 'test'
-	 	redirect '/devon'
-	 else
-	 	redirect '/sign-up'
-	 end
-end
-
 get '/housing_offer' do
 	erb :housing_offer
 end
@@ -73,6 +59,25 @@ end
 
 get '/cleaning_accept' do
 	erb :cleaning_accept
+end
+
+get '/new_user' do
+	erb :new_user
+end
+
+post '/new_user' do
+	@firstName = params[:firstname]
+	@lastName = params[:lastname]
+	@userName = params[:username]
+	@email = params[:email]
+	@password = params[:password]
+	@confirmPassword = params[:confirmPassword]
+	if @password == @confirmPassword
+		Pony.mail(:to => @email, :from => "devon.patey@gmail.com", :subject => "Confirmation email", :body => "Please click this link to confirm", :via => "sendmail")
+		redirect '/about_us'
+	else
+		redirect '/new_user'	
+	end
 end
 
 
